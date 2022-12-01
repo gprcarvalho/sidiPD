@@ -43,6 +43,9 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 
 :man_technologist: Gabriel Ribeiro - > https://github.com/Gabriel5291
 
+:man_technologist: Artur Lima - > https://github.com/Arturlima77
+
+
 
 
 
