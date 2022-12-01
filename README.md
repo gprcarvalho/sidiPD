@@ -45,7 +45,7 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
   <li>Deletar usuário 
 </ul>
 <ul>
-<li><h2>Rotas API</h2>
+<li><h2>Rotas API(User)</h2>
 <li>/api/users   
 <li>/api/user/{id}
 <li>/api/user
@@ -53,12 +53,50 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 <li>/api
 </ul>
 <ul>
-<li><h2>Métodos de Requisição HTTP</h2>
-<li>GET
-<li>GET
-<li>POST
-<li>PUT
-<li>DELETE
+<li><h2>Métodos de Requisição HTTP(User)</h2>
+<li>GET /api/users
+<li>GET /api/users/{id}
+<li>POST /api/user
+<li>PUT /api/user/{id}
+<li>DELETE /api
+</ul>
+<ul>
+  <li><h2>Funcionalidades Login</h2>
+  <li>Realizar Login
+</ul>
+<ul>
+  <li><h2>Rotas API(Login)</h2>
+    <li>/api/login
+</ul>
+<ul>
+  <li><h2>Método de requisição(Login) HTTP</h2>
+    <li>POST /api/login
+</ul>
+<ul>
+  <li><h2>Funcionalidades Station</h2>
+    <li>Visualizar todos as estações cadastradas
+    <li>Buscar estação por ID
+    <li>Cadastrar estação
+    <li>Atualizar estação
+    <li>Deletar estação
+    <li>Visualizar estações disponíveis por data
+</ul>
+<ul>
+  <li><h2>Rotas API(Station)</h2>
+  <li>/api/stations
+  <li>/api/station/{id}
+  <li>/api/station
+  <li>/api/station/{id}
+  <li>/api/station/{id}
+  <li>/api/station/date
+</ul>
+<ul><h2>Métodos de requisição HTTP</h2>
+  <li>GET /api/stations
+  <li>GET /api/station/{id}
+  <li>POST /api/station
+  <li>PUT /api/station/{id}
+  <li>DELETE /api/station/{id}
+  <li>POST /api/station/date
 </ul>
 
 <h2 align="center"> # Equipe </h2>
