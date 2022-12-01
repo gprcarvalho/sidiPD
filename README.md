@@ -136,13 +136,13 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 
 :woman_technologist: Maria Gabriella (PO) - > https://github.com/MGabriellaS
 
-:man_technologist: Gabriel Ribeiro - > https://github.com/Gabriel5291
+:man_technologist: Gabriel Ribeiro (SM) - > https://github.com/Gabriel5291
 
-:man_technologist: Artur Lima - > https://github.com/Arturlima77
+:man_technologist: Artur Lima (DEV) - > https://github.com/Arturlima77
 
-:man_technologist: Gustavo César 
+:man_technologist: Gustavo César (QA)
 
-:man_technologist: Marcelo Cláudio
+:man_technologist: Marcelo Cláudio (QA)
 
 
 
