@@ -35,6 +35,30 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 
 <h2 align="center"> # Funcionalidades e rotas para consumo da API </h2>
 
+<ul>
+  <li><h2>Funcionalidades User</h2>
+  <li>Visualizar todos os usuários cadastrados
+  <li>Buscar usuário por ID
+  <li>Cadastrar usuário 
+  <li>Atualizar usuário 
+  <li>Deletar usuário 
+</ul>
+<ul>
+<li><h2>Rotas API</h2>
+<li>/api/users   
+<li>/api/user/{id}
+<li>/api/user
+<li>/api/user/{id}
+<li>/api
+</ul>
+<ul>
+<li><h2>Métodos de Requisição HTTP</h2>
+<li>GET
+<li>GET
+<li>POST
+<li>PUT
+<li>DELETE
+</ul>
 
 <h2 align="center"> # Equipe </h2>
 
