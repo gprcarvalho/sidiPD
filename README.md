@@ -36,8 +36,11 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 <h2 align="center"> # Equipe </h2>
 
 Mateus Rodrigues - > https://github.com/mateusrdn
+
 Guilherme Régis - > https://github.com/gprcarvalho
+
 Maria Gabriella - > https://github.com/MGabriellaS
+
 Gabriel Ribeiro - > https://github.com/Gabriel5291
 
 
