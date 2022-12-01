@@ -120,13 +120,13 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 </ul>
 <ul>
   <li><h2>Método de requisição HTTP(Reservation)</h2>
-  <li>GET
-  <li>GET
-  <li>POST
-  <li>POST
-  <li>PUT
-  <li>PUT
-  <li>GET
+  <li>GET /api/reservations
+  <li>GET /api/reservation/{id}
+  <li>POST /api/reservation/me
+  <li>POST /api/reservation/for
+  <li>PUT /api/reservation/{id}
+  <li>PUT /api/reservation/canceled/{id}
+  <li>GET /api/reservations/{id}
     
 <h2 align="center"> # Equipe </h2>
 
