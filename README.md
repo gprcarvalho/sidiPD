@@ -63,15 +63,20 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 
 <h2 align="center"> # Equipe </h2>
 
-:man_technologist: Mateus Rodrigues - > https://github.com/mateusrdn
+:man_technologist: Mateus Rodrigues (DEV) - > https://github.com/mateusrdn
 
-:man_technologist: Guilherme Régis - > https://github.com/gprcarvalho
+:man_technologist: Guilherme Régis (DEV) - > https://github.com/gprcarvalho
 
-:woman_technologist: Maria Gabriella - > https://github.com/MGabriellaS
+:woman_technologist: Maria Gabriella (PO) - > https://github.com/MGabriellaS
 
 :man_technologist: Gabriel Ribeiro - > https://github.com/Gabriel5291
 
 :man_technologist: Artur Lima - > https://github.com/Arturlima77
+
+:man_technologist: Gustavo César 
+
+:man_technologist: Marcelo Cláudio
+
 
 
 
