@@ -30,7 +30,7 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 <li> Baixar o Spring Tools 4 - https://spring.io/tools </li>
 <li> Fazer a instalação do lombok - https://www.youtube.com/watch?v=W0ywxkvc4_M </li>
 <li> Baixar e fazer instalação do PostgreSQL - https://www.postgresql.org/download/ </li>
-<li> Baixar o projeto do github - link do github? </li>
+<li> Baixar e instalar o Insomnia para fazer as requisições - https://insomnia.rest/download
 </ul>
 
 <h2 align="center"> # Equipe </h2>
