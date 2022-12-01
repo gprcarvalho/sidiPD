@@ -74,12 +74,12 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 </ul>
 <ul>
   <li><h2>Funcionalidades Station</h2>
-    <li>Visualizar todos as estações cadastradas
-    <li>Buscar estação por ID
-    <li>Cadastrar estação
-    <li>Atualizar estação
-    <li>Deletar estação
-    <li>Visualizar estações disponíveis por data
+  <li>Visualizar todos as estações cadastradas
+  <li>Buscar estação por ID
+  <li>Cadastrar estação
+  <li>Atualizar estação
+  <li>Deletar estação
+  <li>Visualizar estações disponíveis por data
 </ul>
 <ul>
   <li><h2>Rotas API(Station)</h2>
@@ -90,7 +90,7 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
   <li>/api/station/{id}
   <li>/api/station/date
 </ul>
-<ul><h2>Métodos de requisição HTTP</h2>
+  <li><h2>Métodos de requisição HTTP(Station)</h2>
   <li>GET /api/stations
   <li>GET /api/station/{id}
   <li>POST /api/station
@@ -98,6 +98,36 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
   <li>DELETE /api/station/{id}
   <li>POST /api/station/date
 </ul>
+<ul>
+  <li><h2>Funcionalidades Reservation</h2>
+  <li>Visualizar todas as reservas efetuadas
+  <li>Buscar reservas por ID
+  <li>Fazer uma reserva
+  <li>Fazer uma reserva para outro usuário
+  <li>Atualizar reserva
+  <li>Cancelar uma reserva
+  <li>Visualizar todas as reservas efetuadas por cada usuário
+</ul>
+<ul>
+  <li><h2>Rotas API(Reservation)</h2>
+  <li>/api/reservations
+  <li>/api/reservation/{id}
+  <li>/api/reservation/me
+  <li>/api/reservation/for
+  <li>/api/reservation/{id}
+  <li>/api/reservation/canceled/{id}
+  <li>/api/reservations/{id}
+</ul>
+<ul>
+  <li><h2>Método de requisição HTTP(Reservation)</h2>
+  <li>GET
+  <li>GET
+  <li>POST
+  <li>POST
+  <li>PUT
+  <li>PUT
+  <li>GET
+    
 
 <h2 align="center"> # Equipe </h2>
 
