@@ -2,7 +2,8 @@
 
 <h2 align"center"> # Descrição do Projeto </h2> 
 <p align="justify"> Este projeto trata-se de uma API construída utilizando a linguagem de programação Java, o framework Spring Boot e o banco de dados PostgreSQL. Este é um 
-projeto para fins acadêmicos visando atender uma demanda real da empresa SiDi.</p>
+projeto para fins acadêmicos visando atender uma demanda real da empresa SiDi.
+O projeto foi desenvolvido por sete alunos do curso de Análise e Desenvolvimento de Sistemas da faculdade Senac de Pernambuco.</p>
 
 <img src="https://arquivo.portodigital.org/arqSite/residencia.png"/>
 
