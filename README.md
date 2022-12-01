@@ -33,6 +33,9 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 <li> Baixar e instalar o Insomnia para fazer as requisições - https://insomnia.rest/download
 </ul>
 
+<h2 align="center"> # Funcionalidades e rotas para consumo da API </h2>
+
+
 <h2 align="center"> # Equipe </h2>
 
 :man_technologist: Mateus Rodrigues - > https://github.com/mateusrdn
