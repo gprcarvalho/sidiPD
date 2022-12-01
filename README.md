@@ -45,20 +45,20 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
   <li>Deletar usuário 
 </ul>
 <ul>
-<li><h2>Rotas API(User)</h2>
-<li>/api/users   
-<li>/api/user/{id}
-<li>/api/user
-<li>/api/user/{id}
-<li>/api
+  <li><h2>Rotas API(User)</h2>
+  <li>/api/users   
+  <li>/api/user/{id}
+  <li>/api/user
+  <li>/api/user/{id}
+  <li>/api
 </ul>
 <ul>
-<li><h2>Métodos de Requisição HTTP(User)</h2>
-<li>GET /api/users
-<li>GET /api/users/{id}
-<li>POST /api/user
-<li>PUT /api/user/{id}
-<li>DELETE /api
+  <li><h2>Métodos de Requisição HTTP(User)</h2>
+  <li>GET /api/users
+  <li>GET /api/users/{id}
+  <li>POST /api/user
+  <li>PUT /api/user/{id}
+  <li>DELETE /api
 </ul>
 <ul>
   <li><h2>Funcionalidades Login</h2>
@@ -66,11 +66,11 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
 </ul>
 <ul>
   <li><h2>Rotas API(Login)</h2>
-    <li>/api/login
+  <li>/api/login
 </ul>
 <ul>
   <li><h2>Método de requisição(Login) HTTP</h2>
-    <li>POST /api/login
+  <li>POST /api/login
 </ul>
 <ul>
   <li><h2>Funcionalidades Station</h2>
@@ -128,7 +128,6 @@ Sistema desenvolvido para efetuar as reservas das estações de trabalho. Serão
   <li>PUT
   <li>GET
     
-
 <h2 align="center"> # Equipe </h2>
 
 :man_technologist: Mateus Rodrigues (DEV) - > https://github.com/mateusrdn
