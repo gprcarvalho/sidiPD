@@ -20,9 +20,8 @@
                                     <li>Fazer a instalação do lombok - https://www.youtube.com/watch?v=W0ywxkvc4_M</li>
                                     <li>Baixar e fazer instalação do PostgreSQL - https://www.postgresql.org/download/</li>
                                     </ul>
-                                    
-                                    <h2 align="center"> Funcionalidades e Rotas da API </h2>
-                                                      
+                                    <h2 align="center">Funcionalidades e Rotas da API</h2>
+                                                                                  
                                     
                                           | Funcionalidades User |          | Rotas API |          | Métodos de requisição HTTP |
                                     
