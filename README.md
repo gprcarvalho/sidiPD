@@ -60,7 +60,9 @@
                                           | Cancelar uma reserva |          | /api/reservation/canceled/{id} |  | PUT |
                                           | Visualizar todas as reservas    | /api/reservations/{id} |          | GET |
                                             efetuadas por cada usuário |
-
-
-
-                                   
+                                                      
+                                                      
+                                                      
+                                                      
+                                                 
+                                                                                     
