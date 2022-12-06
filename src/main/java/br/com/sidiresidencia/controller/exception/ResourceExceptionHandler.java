@@ -40,17 +40,17 @@ public class ResourceExceptionHandler {
 		return ResponseEntity.status(status).body(error);
 	}
 
-	@ExceptionHandler(ConstraintViolationException.class)
+/*	@ExceptionHandler(ConstraintViolationException.class)
 	public ResponseEntity<StandardError> violation(ConstraintViolationException e, HttpServletRequest request) {
 		HttpStatus status = HttpStatus.INTERNAL_SERVER_ERROR; 
 		StandardError err = new StandardError();
 		err.setTimestamp(Instant.now());
 		err.setStatus(status.value());
 		err.setError("Resource not found");
-		err.setMessage("Station already registered");
+		err.setMessage(e.getMessage());
 		err.setPath(request.getRequestURI());
 		return ResponseEntity.status(status).body(err);
-	}  
+	}    */
 	
 	@ExceptionHandler(InvalidFormatException.class)
 	public ResponseEntity<StandardError> InvalidFormat(InvalidFormatException e, HttpServletRequest request) {

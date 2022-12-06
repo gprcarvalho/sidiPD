@@ -30,7 +30,7 @@ public class ReservationDTO implements Serializable {
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate dateReservation;
 	private User createdBy;
-	@NotNull @ManyToOne(fetch = FetchType.EAGER)
+	@NotNull
 	private Station station;
 	private User createdFor;
 

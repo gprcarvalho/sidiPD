@@ -86,20 +86,13 @@ public class ReservationService {
 	}
 
 	@Transactional
-	public ReservationDTO updateReservation(Long id, ReservationDTO dto) {
+	public ReservationDTO updateReservation(Long idReservation, ReservationDTO dto) {
 
-		checkIdReservationExist(id);
-		
-		checkProfilePermission();
-		
-		checkIdStationExist(dto.getStation().getId());
+		checkIdReservationExist(idReservation);
 
-		checkReservationExist(dto.getDateReservation(), dto.getStation().getId());
-
-		Optional<Reservation> reservation = repository.findById(id);
-		dtoReservation(dto, reservation.get());
+		Optional<Reservation> reservation = repository.findById(idReservation);
+		checkUpdateReservation(idReservation, dto);
 		return new ReservationDTO(repository.save(reservation.get()));
-
 	}
 
 	@Transactional
@@ -122,10 +115,13 @@ public class ReservationService {
 		}
 	}
 
-	private void dtoReservation(ReservationDTO dto, Reservation reservation) {
-
+	private void dtoReservationUpdate(ReservationDTO dto, Reservation reservation) {
 		reservation.setDateReservation(dto.getDateReservation());
-		reservation.setCreatedBy(dto.getCreatedBy());
+		reservation.setStation(dto.getStation());
+	}
+
+	private void dtoReservation(ReservationDTO dto, Reservation reservation) {
+		reservation.setDateReservation(dto.getDateReservation());
 		reservation.setCreatedFor(dto.getCreatedFor());
 		reservation.setStation(dto.getStation());
 	}
@@ -181,6 +177,19 @@ public class ReservationService {
 		return checkReservationExist;
 	}
 
+	private Reservation checkExistReservationUserDateUpdate(Long idReservation, Long id, LocalDate date) {
+
+		Reservation checkExistReservationUserDateUpdate = repository.checkExistReservationUserDateUpdate(idReservation,
+				id, date);
+
+		if (checkExistReservationUserDateUpdate != null) {
+			throw new ReservationException("There is already a reservation for that date at that station");
+		}
+
+		return checkExistReservationUserDateUpdate;
+
+	}
+
 	private ProfileEnum checkProfilePermission() {
 
 		ProfileEnum profileUser = tokenService.getProfileUser();
@@ -190,6 +199,32 @@ public class ReservationService {
 		}
 
 		return profileUser;
+	}
+
+	private Reservation checkUpdateReservation(Long idReservation,ReservationDTO dto) {
+		
+		ProfileEnum getProfileEnum = tokenService.getProfileUser();
+
+		if (getProfileEnum == ProfileEnum.ADMINISTRADOR || getProfileEnum == ProfileEnum.GESTOR) {
+			checkIdStationExist(dto.getStation().getId());
+			checkReservationExist(dto.getDateReservation(), dto.getStation().getId());
+		}
+
+		if (getProfileEnum == ProfileEnum.COLLABORATOR) {
+			checkIdStationExist(dto.getStation().getId());
+			checkExistReservationUserDateUpdate(idReservation, tokenService.getUserIdMe(), dto.getDateReservation());
+			checkReservationExist(dto.getDateReservation(), dto.getStation().getId());
+		}
+		
+		Optional<Reservation> reservation = repository.findById(idReservation);
+		
+		if(dto.getCreatedFor() != null) {
+			dtoReservation(dto, reservation.get());
+		} else {
+			dtoReservationUpdate(dto, reservation.get());
+		}
+		
+		return reservation.get();
 	}
 
 }

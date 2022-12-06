@@ -18,8 +18,9 @@ public interface ReservationRepository extends JpaRepository<Reservation, Long>{
 	@Query(value = "SELECT r FROM tb_reservation r WHERE r.dateReservation = :date AND r.station.id = :id AND r.isCanceled = false") 
 	Reservation findByReservation(LocalDate date, Long id);  
 	
-	@Query(value = "SELECT r FROM tb_reservation r WHERE r.createdBy.id = :id AND r.dateReservation = :date")
+	@Query(value = "SELECT r FROM tb_reservation r WHERE r.createdBy.id = :id AND r.dateReservation = :date AND r.isCanceled = false")
 	Reservation checkExistReservationUserDate(Long id, LocalDate date);
 	
-	
+	@Query(value = "SELECT r FROM tb_reservation r WHERE r.id <> :idReservation AND r.createdBy.id = :id AND r.dateReservation = :date AND r.isCanceled = false")
+	Reservation checkExistReservationUserDateUpdate(Long idReservation, Long id, LocalDate date);
 }
