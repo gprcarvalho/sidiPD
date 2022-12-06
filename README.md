@@ -20,6 +20,15 @@
                                     <li>Fazer a instalação do lombok - https://www.youtube.com/watch?v=W0ywxkvc4_M</li>
                                     <li>Baixar e fazer instalação do PostgreSQL - https://www.postgresql.org/download/</li>
                                     </ul>
+                                    <h2 align="center">Equipe</h2>
+                                                      <ul>
+                                                     <li> 👨‍💻 Guilherme Régis - Desenvolvedor -> https://github.com/gprcarvalho </li>
+                                                     <li> 👨‍💻 Mateus Rodrigues - Desenvolvedor -> https://github.com/mateusrdn </li> 
+                                                     <li> 👨‍💻 Artur Bernardino - Desenvolvedor </li>
+                                                     <li> 👨‍💻 Gabriel Ribeiro - Scrum Master </li>
+                                                     <li> 👨‍💻 Marcelo Cláudio - Tester -> https://github.com/MarceloClaudio </li>
+                                                     <li> 👨‍💻 Gustavo César - Tester </li>
+                                                     <li> 👩‍💻 Maria Gabriella - Product Owner -> https://github.com/MGabriellaS </li>
                                     <h2 align="center">Funcionalidades e Rotas da API</h2>
                                                                                   
                                     
@@ -60,6 +69,13 @@
                                           | Cancelar uma reserva |          | /api/reservation/canceled/{id} |  | PUT |
                                           | Visualizar todas as reservas    | /api/reservations/{id} |          | GET |
                                             efetuadas por cada usuário |
+                                                      
+                                     
+                                                      
+                                                      
+                                                      
+                                                      
+                                                     
                                                       
                                                       
                                                       
