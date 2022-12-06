@@ -24,8 +24,8 @@
                                                       <ul>
                                                      <li> 👨‍💻 Guilherme Régis - Desenvolvedor -> https://github.com/gprcarvalho </li>
                                                      <li> 👨‍💻 Mateus Rodrigues - Desenvolvedor -> https://github.com/mateusrdn </li> 
-                                                     <li> 👨‍💻 Artur Bernardino - Desenvolvedor </li>
-                                                     <li> 👨‍💻 Gabriel Ribeiro - Scrum Master </li>
+                                                     <li> 👨‍💻 Artur Bernardino - Desenvolvedor -> https://github.com/Arturlima77 </li>
+                                                     <li> 👨‍💻 Gabriel Ribeiro - Scrum Master -> https://github.com/Gabriel5291 </li>
                                                      <li> 👨‍💻 Marcelo Cláudio - Tester -> https://github.com/MarceloClaudio </li>
                                                      <li> 👨‍💻 Gustavo César - Tester </li>
                                                      <li> 👩‍💻 Maria Gabriella - Product Owner -> https://github.com/MGabriellaS </li>
