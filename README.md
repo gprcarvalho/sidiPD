@@ -21,13 +21,17 @@
                                     <li>Baixar e fazer instalação do PostgreSQL - https://www.postgresql.org/download/</li>
                                     </ul>
                                     
-                                          | Funcionalidades User |          | Rotas API |             | Métodos de requisição HTTP |
+                                    <h2 align="center"> Funcionalidades e Rotas da API </h2>
+                                                      
                                     
-                                          | -------------------- |          | --------- |
-                                          | Visualizar todos os users |     | /api/users |
-                                          | Buscar usuário por ID |         | /api/user{id} |
-                                          | Cadastrar Usuário |             | /api/user |
-                                          | Atualizar Usuário |             | /api/user{id} |
-                                          | Deletar Usuário |               | /api |
+                                          | Funcionalidades User |          | Rotas API |          | Métodos de requisição HTTP |
+                                    
+                                          | -------------------- |          | --------- |          | ------------------------- |
+                                          | Visualizar todos os users |     | /api/users |         | GET |
+                                          | Buscar usuário por ID |         | /api/user{id} |      | GET |
+                                          | Cadastrar Usuário |             | /api/user |          | POST |
+                                          | Atualizar Usuário |             | /api/user{id} |      | PUT |
+                                          | Deletar Usuário |               | /api |               | DELETE |
+                                    
 
                                    
